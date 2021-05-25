@@ -1,0 +1,7 @@
+.main {
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out 0s;     
+ }
+ #active {
+    visibility: visible;
+ }

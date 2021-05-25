@@ -1,0 +1,38 @@
+.player {
+    opacity:0;
+    transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: -50px;
+    margin-left: 110px;
+    margin-top:30px;
+    visibility: hidden;
+    
+
+    
+   
+}
+.video {
+   position: absolute;
+   top:60px;
+   left:350px;
+
+  
+    
+}
+
+.player#active {
+    opacity: 1;
+    visibility: visible;
+    
+
+}
+.inactive {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+#inactive {
+    
+    opacity: 0.1;
+}
